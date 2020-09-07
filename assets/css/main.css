@@ -1,0 +1,353 @@
+/* font-face start
+----------------------------*/
+@font-face
+{ 
+	font-family: 'Montserrat-Regular';
+	src:url('../fonts/Montserrat-Regular.eot') format('eot'), 
+		url('../fonts/Montserrat-Regular.svg') format('svg'), 	
+		url('../fonts/Montserrat-Regular.ttf') format('ttf'), 
+		url('../fonts/Montserrat-Regular.woff') format('woff'), 
+		url('../fonts/Montserrat-Regular.woff2') format('woff2');
+		font-weight: 400;
+}
+@font-face
+{ 
+	font-family: 'Montserrat-ExtraBold';
+	src:url('../fonts/Montserrat-ExtraBold.eot') format('eot'), 
+		url('../fonts/Montserrat-ExtraBold.svg') format('svg'), 	
+		url('../fonts/Montserrat-ExtraBold.ttf') format('ttf'), 
+		url('../fonts/Montserrat-ExtraBold.woff') format('woff'), 
+		url('../fonts/Montserrat-ExtraBold.woff2') format('woff2');
+		font-weight: 400;
+}
+
+
+/* reset css start
+----------------------------*/
+*{ box-sizing:border-box;}
+body{ padding:0; margin:0; scroll-behavior:smooth;font-family: 'Montserrat-Regular';}
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+figure{ padding:0; margin:0;}
+img{margin: 0; padding: 0;max-width: 100%;max-height: 100%;}
+ul,li{ text-decoration:none; display:inline; margin:0; padding:0;}
+a{ text-decoration:none; text-decoration-line: none;display: inline-block;}
+a:hover{text-decoration:none; text-decoration-line: none;}
+p{ margin:0; padding:0}
+
+
+/* default css
+----------------------------*/
+
+.container
+{
+	width: 100%;
+	max-width: 1087px;
+	padding: 20px;
+}
+.item.slick-slide
+{
+	outline: none;
+}
+.slick-dots 
+{
+	position: absolute;
+	top: 90%;
+	right: 5%;
+	display: flex;
+	list-style-type: none;
+}
+button 
+{
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin: 10px;
+	outline: none;
+	border: none;
+	border-radius: 50%;
+	background-color: red;
+	text-indent: -9999px;
+}
+li.slick-active button 
+{
+	background-color: green;
+}
+
+
+/* Header
+----------------------------*/
+
+.pageheader
+{
+	position: absolute;
+	padding-top: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 10;
+}
+.caption
+{
+	text-transform: uppercase;
+	color: #1b3d01;
+	text-align: center;
+}
+.pageheader .caption h1
+{
+	font-size: 30px;
+    margin-bottom: -6px;
+    color: #1b3d01;
+	font-family: 'Montserrat-ExtraBold';
+}
+.pageheader .caption h3
+{
+	font-size: 25px;
+	color: #1b3d01;
+    letter-spacing: 3.6px;
+}
+
+
+/* Main Contant Area
+----------------------------*/
+
+
+/* First Slide
+----------------------------*/
+
+.banner-bg
+{
+	width: 100%;
+}
+.banner-bg
+{
+	position: relative;
+}
+.back .item figure img
+{
+	width: 100%;
+}
+.container
+{
+	position: absolute;
+	top: 41%;
+	left: 50%;
+	margin-top: 50px;
+	transform: translate(-50%,-50%);
+}
+.item
+{
+	position: relative;
+}
+.logo-man
+{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	top: 50%;
+	right: 17.1%;
+	transform: translate( 50%,-50%); 
+}
+.logo-man img
+{
+	width: 30.3%;
+	margin: 0 auto;
+	margin-bottom: 23px;
+}
+.logo-man p
+{
+	line-height: 14px;
+    font-style: italic;
+    font-size: 12px;
+}
+.second-image
+{
+	position: absolute;
+	top: 52.5%;
+	left: 37.3%;
+	transform: translate(-50%,-50%);
+}
+.second-image figure img
+{
+	width: 40.5%;
+}
+
+
+/* Second Slide
+----------------------------*/
+
+.logo-cat
+{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 54.4%;
+	left: 22%;
+	transform: translate(-50%,-50%);
+}
+.logo-cat figure img
+{
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 39px;
+}
+.logo-cat .logo-title img
+{
+	width: 35%;
+	margin: 0 auto; 
+	margin-bottom: 37px;
+}
+.logo-cat p
+{
+	width: 36%;
+    color: #fff;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 11px;
+}
+.logo-cat .button-bg
+{
+	position: relative;
+}
+.logo-cat .button-bg figure img
+{
+	width: 29%
+}
+.logo-cat .button-bg a
+{
+	position: absolute;
+	top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 13px;
+    letter-spacing: 2.2px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/* Third Slide
+----------------------------*/
+
+.logo-women
+{
+	position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 47%;
+    left: 73%;
+    transform: translate(-68%,-52%);
+    align-items: center;
+    width: 35%;
+}
+.logo-women .logo-size
+{
+	height: 93px;
+	margin-bottom: 41px;
+}
+.logo-women h1,h2,h3
+{
+	color: #647d2e;
+	text-transform: uppercase;
+}
+.logo-women h1
+{
+	font-size: 72px;
+	letter-spacing: 6px;
+	line-height: 10px;
+	font-family: 'Montserrat-ExtraBold';
+	margin-bottom: 47px;
+}
+.logo-women h2
+{
+	font-size: 58px;
+	letter-spacing: 31px;
+	font-weight: 100;
+	margin-bottom: 16px;
+}
+.logo-women h3
+{
+	font-size: 35px;	
+	letter-spacing: 3.9px;
+	margin-bottom: -14px;
+}
+.logo-women p
+{
+	font-size: 12px;
+	width: 110%;
+	color: #242424;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 17px;
+}
+.logo-women .button-bg
+{
+	position: relative;
+}
+.logo-women .button-bg figure
+{
+	height: 70px
+}
+.logo-women .button-bg a
+{
+	position: absolute;
+    top: 46%;
+    left: 29%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+/* Media Queries
+--------------------*/
+
+@media(max-width: 1100px)
+{
+	.pageheader
+	{
+		padding-top: 25px;
+	}
+	.pageheader .caption h1
+	{
+		font-size: 25px;
+	}
+	.pageheader .caption h3
+	{
+		font-size: 20px;
+	}
+}
+@media(max-width: 767px)
+{
+	.pageheader .caption h1
+	{
+		font-size: 22px;
+	}
+	.pageheader .caption h3
+	{
+		font-size: 17px;
+	}
+
+}
+@media(max-width: 480px)
+{
+	.pageheader .caption h1
+	{
+		font-size: 20px;
+	}
+	.pageheader .caption h3
+	{
+		font-size: 15px;
+	}
+
+}
